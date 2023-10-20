@@ -1,0 +1,122 @@
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 20px;
+}
+
+header {
+  display: flex;
+  margin: 30px auto;
+  position: block;
+  gap: 20px;
+}
+
+.header-avarar {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.header-about {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.header-text {
+  align-self: center;
+}
+
+.fullname {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 30%;
+  min-width: 300px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: min-content;
+}
+
+.links > a {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid #0a66c225;
+  padding-inline: 10px;
+  border-radius: 15px;
+  background-color: var(--color);
+  box-shadow: 0 5px 20px var(--color);
+}
+
+.links > a:hover {
+  box-shadow: 0 3px 5px 0 var(--color), 0 5px 15px 0 var(--color);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.links > a > p {
+  align-self: center;
+}
+
+.links > a > img, .links > a > svg {
+  height: 30px;
+  width: 30px;
+  align-self: center;
+}
+
+.linkedin > svg {
+  color: #0a66c2;
+}
+
+.linkedin {
+  --color: #0a66c225;
+}
+
+.github {
+  --color: #0000001f;
+}
+
+.email {
+  --color: rgba(234, 24, 24, 0.283);
+}
+
+.telegram {
+  --color: #0088cc1f;
+}
+
+.skype {
+  --color: #00aff01f;
+}
+
+.facebook {
+  --color: #0866ff1f;
+}
+
+.linkedin > p {
+  color: #000000;
+}
+
+.facebook > svg {
+  color: #0866ff;
+  background-color: transparent;
+}
+
+.about {
+  
+}
