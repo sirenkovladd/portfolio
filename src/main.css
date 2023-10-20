@@ -117,6 +117,24 @@ main {
   background-color: transparent;
 }
 
+.discord {
+  --color: #7289da1f;
+}
+
+.links > a > .copy {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #27629d93;
+  border-radius: 10%;
+  padding: 3px;
+}
+.copy:hover {
+  background-color: #c5c5c58a;
+  color: white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
 .about {
   
 }

@@ -2,11 +2,12 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "compress.js",
+  "main": "src/build.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node compress.js"
+    "build": "node src/build.js",
+    "dev": "vite",
+    "preview": "npx serve dist -p 3000"
   },
   "repository": {
     "type": "git",
@@ -18,10 +19,11 @@
     "url": "https://github.com/sirenkovladd/portfolio/issues"
   },
   "homepage": "https://github.com/sirenkovladd/portfolio#readme",
-  "dependencies": {
-    "minify": "^10.5.2"
-  },
   "devDependencies": {
-    "@types/node": "^20.8.7"
+    "minify": "^10.5.2",
+    "serve": "^14.2.1",
+    "solid-js": "^1.8.3",
+    "vite": "^4.5.0",
+    "vite-plugin-solid": "^2.7.2"
   }
 }
