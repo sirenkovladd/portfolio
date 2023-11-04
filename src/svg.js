@@ -39,15 +39,15 @@ export const EmailSvg = ({ circle, defs, g, path, svg }) =>
     ),
   );
 
-export const CopySvg = ({ g, path, svg }) =>
+export const CopySvg = (attr, { g, path, svg }) =>
   svg(
     {
+      ...attr,
       fill: "#000000",
       height: "200px",
       width: "200px",
       version: "1.1",
       id: "Layer_1",
-      xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 64 64",
       "enable-background": "new 0 0 64 64",
       space: "preserve",

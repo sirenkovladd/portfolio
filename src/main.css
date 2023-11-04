@@ -13,6 +13,14 @@ header {
   gap: 20px;
 }
 
+.links-title {
+  align-self: center;
+}
+
+.about-title {
+  align-self: center;
+}
+
 .header-avarar {
   height: 60px;
   width: 60px;
@@ -40,8 +48,9 @@ main {
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
-  width: 30%;
+  width: 35%;
   min-width: 300px;
+  gap: 30px;
 }
 
 .links {
@@ -51,7 +60,7 @@ main {
   width: min-content;
 }
 
-.links > a {
+.links > div > a {
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -64,20 +73,48 @@ main {
   box-shadow: 0 5px 20px var(--color);
 }
 
-.links > a:hover {
+.links > div > a:hover {
   box-shadow: 0 3px 5px 0 var(--color), 0 5px 15px 0 var(--color);
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
 
-.links > a > p {
+.links > div > a > p {
   align-self: center;
 }
 
-.links > a > img, .links > a > svg {
+.wrap-link {
+  position: relative;
+}
+
+.wrap-link > .copy {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  /* bottom: 0; */
+  /* margin: auto; */
+  /* display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: transparent;
+  color: black;
+  box-shadow: none;
+  border-radius: 0; */
+  /* padding-right: 10px; */
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.links > div > a > img, .links > div > a > svg {
   height: 30px;
   width: 30px;
   align-self: center;
+}
+
+.copy-block {
+  height: 30px;
+  width: 30px;
 }
 
 .linkedin > svg {
@@ -138,4 +175,17 @@ main {
   height: 30px;
   width: 30px;
   align-self: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
