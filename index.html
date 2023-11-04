@@ -1,17 +1,12 @@
 <html lang="en">
-
 <head>
   <meta charset='utf-8' />
   <meta http-equiv='X-UA-Compatible' content='IE=edge' />
   <title>Vlad Sirenko</title>
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <link rel="icon" href="https://avatars.githubusercontent.com/u/28163663" class="next-head" />
-  <link rel='stylesheet' type='text/css' media='screen' href='./src/main.css' />
-  <script>
-    if (window.location.pathname !== '/') {
-      window.location.href = '/'
-    }
-  </script>
+  <link rel='stylesheet' type='text/css' media='screen' href='./main.css' />
+  <script src="https://cdn.jsdelivr.net/npm/@simondmc/popup-js@1.4.2/popup.min.js"></script>
 </head>
 
 <body>
@@ -22,8 +17,8 @@
       <div class="header-text">Software engineer</div>
     </div>
   </header>
-  <main id="root"></main>
-  <script src='./src/index.jsx' type="module"></script>
+  <!--ssr-outlet-->
+  <script src='./index.js'></script>
 </body>
 
 </html>

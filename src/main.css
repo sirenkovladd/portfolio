@@ -121,12 +121,11 @@ main {
   --color: #7289da1f;
 }
 
-.links > a > .copy {
-  height: 20px;
-  width: 20px;
+.copy {
   border: 1px solid #27629d93;
   border-radius: 10%;
   padding: 3px;
+  align-self: center;
 }
 .copy:hover {
   background-color: #c5c5c58a;
@@ -135,6 +134,8 @@ main {
   transition-duration: 0.4s;
 }
 
-.about {
-  
+.copy > svg {
+  height: 30px;
+  width: 30px;
+  align-self: center;
 }
