@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "node src/build.js",
-    "dev": "vite",
+    "build": "tsx build.js",
+    "dev": "tsx server.ts",
     "preview": "npx serve dist -p 3000"
   },
   "repository": {
@@ -23,6 +23,7 @@
     "esbuild": "^0.19.5",
     "minify": "^10.5.2",
     "serve": "^14.2.1",
+    "tsx": "^3.14.0",
     "typescript": "^5.2.2",
     "vanjs-core": "^1.2.6"
   },

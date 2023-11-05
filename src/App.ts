@@ -73,6 +73,7 @@ export default function Main({ van }: { van: VanObj }) {
       Link({ name: "Linkedin", href: "https://www.linkedin.com/in/sirenkovladd/", icon: LinkedinSvg(svgTags) }),
       Link({ name: "Github", href: "https://github.com/sirenkovladd", icon: GithubSvg(svgTags) }),
       Link({ class: "email", href: "mailto:vlad@sirenko.ca", icon: EmailSvg(svgTags), name: "vlad@sirenko.ca", copy: true }),
+      Link({ class: "email", href: "mailto:sirenkovladd@gmail.com", icon: EmailSvg(svgTags), name: "sirenkovladd@gmail.com", copy: true }),
       Link({ name: "Discord", href: "https://discordapp.com/users/418108770288140289", icon: DiscordSvg(svgTags) }),
       Link({ name: "Telegram", href: "https://t.me/vlad_21", icon: TelegramSvg(svgTags) }),
       Link({ name: "Skype", href: "https://join.skype.com/invite/DFZsGvkFKgEG", icon: SkypeSvg(svgTags) }),

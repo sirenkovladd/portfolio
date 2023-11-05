@@ -46,10 +46,10 @@ header {
 main {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin: 0 auto;
-  width: 35%;
-  min-width: 300px;
+  /* width: 35%; */
+  /* min-width: 300px; */
   gap: 30px;
 }
 
@@ -61,6 +61,7 @@ main {
 }
 
 .links > div > a {
+  font-size: 16px;
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -90,17 +91,8 @@ main {
 .wrap-link > .copy {
   position: absolute;
   right: 0;
-  top: 15px;
-  /* bottom: 0; */
-  /* margin: auto; */
-  /* display: flex;
-  flex-direction: row;
-  gap: 10px;
-  background-color: transparent;
-  color: black;
-  box-shadow: none;
-  border-radius: 0; */
-  /* padding-right: 10px; */
+  top: 10px;
+  margin: auto;
   margin-right: 5px;
   border: none;
   cursor: pointer;
@@ -181,7 +173,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 100%;
+  width: 300px;
 }
 
 .about-text {
