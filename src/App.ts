@@ -69,11 +69,11 @@ export default function Main({ van }: { van: VanObj }) {
     { id: "root" },
     div(
       { class: "links" },
-      div({ class: "links-title" }, "Links:"),
+      // div({ class: "links-title" }, "Links:"),
       Link({ name: "Linkedin", href: "https://www.linkedin.com/in/sirenkovladd/", icon: LinkedinSvg(svgTags) }),
       Link({ name: "Github", href: "https://github.com/sirenkovladd", icon: GithubSvg(svgTags) }),
       Link({ class: "email", href: "mailto:vlad@sirenko.ca", icon: EmailSvg(svgTags), name: "vlad@sirenko.ca", copy: true }),
-      Link({ class: "email", href: "mailto:sirenkovladd@gmail.com", icon: EmailSvg(svgTags), name: "sirenkovladd@gmail.com", copy: true }),
+      // Link({ class: "email", href: "mailto:sirenkovladd@gmail.com", icon: EmailSvg(svgTags), name: "sirenkovladd@gmail.com", copy: true }),
       Link({ name: "Discord", href: "https://discordapp.com/users/418108770288140289", icon: DiscordSvg(svgTags) }),
       Link({ name: "Telegram", href: "https://t.me/vlad_21", icon: TelegramSvg(svgTags) }),
       Link({ name: "Skype", href: "https://join.skype.com/invite/DFZsGvkFKgEG", icon: SkypeSvg(svgTags) }),
@@ -85,9 +85,14 @@ export default function Main({ van }: { van: VanObj }) {
       div(
         { class: "about-text" },
         [
-          "have a lot of knowledge about js (solid, react, node, bun...), gis, golang, HL.",
-          "Relevant experience of more than 4 years.",
-          "Contributor of many projects (bun, solid.js, fastify...), member of vite subproject (Tinylibs)",
+          "Greetings! I'm a seasoned Software Engineer and Team Lead with 4+ years of hands-on experience in the dynamic realm of software development.",
+          "My passion lies in planning and developing systems with a long life cycle, and I specialize in leveraging cutting-edge technologies to drive innovation across the entire software development lifecycle.",
+          "In my current role as a Software Engineer/Team Lead at Binerals, I've spearheaded the rewriting of microservices design, optimizing response speed by 30% and increasing throughput by 70%.",
+          "I take pride in reorganizing databases, reducing execution times, and devising customized reports to enhance system security and incident response.",
+          "In addition to my professional experience, I hold a Bachelor's degree in Computer Science, providing a strong foundation in both theoretical principles and practical applications.",
+          "I am highly skilled in Node.js, TypeScript, JavaScript, GraphQL, PostgreSQL, MySQL, Redis, Memcached, RabbitMQ, Microservices, Kubernetes, AWS, and React.js.",
+          "Beyond my professional work, I actively contribute to open-source projects like bun, Solid.js, Fastify, Vitest. I'm passionate about giving back to the programming community.",
+          "Let's connect! Whether it's discussing tech trends, exploring collaboration opportunities, or connecting with fellow professionals, I'm open to expanding my network."
         ].map((text) => div({ class: "about-text-item" }, text)),
       ),
     ),

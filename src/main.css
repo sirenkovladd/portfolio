@@ -51,6 +51,7 @@ main {
   /* width: 35%; */
   /* min-width: 300px; */
   gap: 30px;
+  padding: 30px;
 }
 
 .links {
@@ -58,6 +59,7 @@ main {
   flex-direction: column;
   gap: 20px;
   width: min-content;
+  margin-top: 50px;
 }
 
 .links > div > a {
@@ -84,8 +86,24 @@ main {
   align-self: center;
 }
 
+@media (max-width: 800px) {
+  main {
+    flex-direction: column;
+  }
+  .links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    margin-top: 0;
+  }
+}
+
 .wrap-link {
   position: relative;
+}
+
+.wrap-link > a {
+  height: 50px;
 }
 
 .wrap-link > .copy {
@@ -173,7 +191,8 @@ main {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 300px;
+  /* width: 600px; */
+  max-width: 600px;
 }
 
 .about-text {
