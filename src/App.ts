@@ -70,7 +70,7 @@ export default function Main({ van }: { van: VanObj }) {
     div(
       { class: "links" },
       // div({ class: "links-title" }, "Links:"),
-      Link({ name: "Linkedin", href: "https://www.linkedin.com/in/sirenkovladd/", icon: LinkedinSvg(svgTags) }),
+      Link({ name: "Linkedin", href: "https://www.linkedin.com/in/sirenkovlad/", icon: LinkedinSvg(svgTags) }),
       Link({ name: "Github", href: "https://github.com/sirenkovladd", icon: GithubSvg(svgTags) }),
       Link({ class: "email", href: "mailto:vlad@sirenko.ca", icon: EmailSvg(svgTags), name: "vlad@sirenko.ca", copy: true }),
       // Link({ class: "email", href: "mailto:sirenkovladd@gmail.com", icon: EmailSvg(svgTags), name: "sirenkovladd@gmail.com", copy: true }),
